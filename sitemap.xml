@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://goktenkaradag.com/posts/net-core-swagger/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goktenkaradag.com/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
   <url>
+    <loc>https://goktenkaradag.com/net-core-swagger-kullanimi/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://goktenkaradag.com/posts/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/solid-prensipleri/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
