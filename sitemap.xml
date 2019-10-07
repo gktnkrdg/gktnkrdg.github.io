@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://goktenkaradag.com/tags/development/</loc>
+    <loc>https://goktenkaradag.com/tags/.net/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://goktenkaradag.com/tags/go/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/golang/</loc>
+    <loc>https://goktenkaradag.com/tags/.net-core/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
@@ -23,7 +18,17 @@
   </url>
   
   <url>
+    <loc>https://goktenkaradag.com/tags/net/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://goktenkaradag.com/net-core-swagger-kullanimi/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/tags/open-api/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
@@ -33,22 +38,12 @@
   </url>
   
   <url>
-    <loc>https://goktenkaradag.com/solid-prensipleri/</loc>
+    <loc>https://goktenkaradag.com/tags/swagger/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://goktenkaradag.com/tags/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/templates/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/themes/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
   </url>
   
