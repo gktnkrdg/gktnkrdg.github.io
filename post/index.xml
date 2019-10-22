@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gökten Karadağ</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Gökten Karadağ</description>
+    <title>Posts on Gökten Karadağ</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Gökten Karadağ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Sat, 19 Oct 2019 18:55:21 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,15 +36,6 @@ Peki nedir bu prensipler , tek tek inceleyelim.</description>
       <guid>http://localhost:1313/post/net-core-swagger-kullanimi/</guid>
       <description>Giriş Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
  OpenAPI 3.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/contact/</guid>
-      <description>İletişim Bilgileri  gktnkrdg@gmail.com</description>
     </item>
     
   </channel>
