@@ -1,104 +1,104 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://goktenkaradag.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/post/solid-prensipleri/</loc>
+    <loc>https://goktenkaradag.com/post/solid-prensipleri/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://goktenkaradag.com/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/nedir/</loc>
+    <loc>https://goktenkaradag.com/tags/nedir/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://goktenkaradag.com/post/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/s.o.l.i.d/</loc>
+    <loc>https://goktenkaradag.com/tags/s.o.l.i.d/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/solid/</loc>
+    <loc>https://goktenkaradag.com/tags/solid/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://goktenkaradag.com/tags/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/yaz%C4%B1l%C4%B1m-prensipleri/</loc>
+    <loc>https://goktenkaradag.com/tags/yaz%C4%B1l%C4%B1m-prensipleri/</loc>
     <lastmod>2019-10-19T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/.net/</loc>
+    <loc>https://goktenkaradag.com/tags/.net/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/.net-core/</loc>
+    <loc>https://goktenkaradag.com/tags/.net-core/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/net-core-swagger-kullanimi/</loc>
+    <loc>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/open-api/</loc>
+    <loc>https://goktenkaradag.com/tags/open-api/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/swagger/</loc>
+    <loc>https://goktenkaradag.com/tags/swagger/</loc>
     <lastmod>2019-10-05T18:55:21+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://goktenkaradag.com/contact/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://goktenkaradag.com/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

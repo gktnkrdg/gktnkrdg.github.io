@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Gökten Karadağ</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://goktenkaradag.com/post/</link>
     <description>Recent content in Posts on Gökten Karadağ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Sat, 19 Oct 2019 18:55:21 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://goktenkaradag.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>S.O.L.I.D Prensipleri</title>
-      <link>http://localhost:1313/post/solid-prensipleri/</link>
+      <link>https://goktenkaradag.com/post/solid-prensipleri/</link>
       <pubDate>Sat, 19 Oct 2019 18:55:21 +0300</pubDate>
       
-      <guid>http://localhost:1313/post/solid-prensipleri/</guid>
+      <guid>https://goktenkaradag.com/post/solid-prensipleri/</guid>
       <description>Nedir S.O.L.I.D Prensipleri, Robert C. Martin tarafından hazırlanan Nesneye Tabanlı Programlama Prensiplerinin ilk 5 maddesinin kısaca adlandırılmasıdır.
 Bu maddeler
 S – (SRP) Single responsibility principle
@@ -30,10 +30,10 @@ Peki nedir bu prensipler , tek tek inceleyelim.</description>
     
     <item>
       <title>NET Core Swagger Kullanımı</title>
-      <link>http://localhost:1313/post/net-core-swagger-kullanimi/</link>
+      <link>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</link>
       <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/net-core-swagger-kullanimi/</guid>
+      <guid>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</guid>
       <description>Giriş Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
  OpenAPI 3.</description>
     </item>
