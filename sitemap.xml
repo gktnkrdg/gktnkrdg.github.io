@@ -63,18 +63,7 @@
   </url>
   
   <url>
-    <loc>https://goktenkaradag.com/medium/medium/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://goktenkaradag.com/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/medium/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
