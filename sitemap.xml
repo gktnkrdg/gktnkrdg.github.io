@@ -58,47 +58,23 @@
   </url>
   
   <url>
-    <loc>https://goktenkaradag.com/tags/.net/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/.net-core/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/open-api/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/swagger/</loc>
-    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://goktenkaradag.com/contact/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://goktenkaradag.com/medium/medium/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://goktenkaradag.com/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/medium/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

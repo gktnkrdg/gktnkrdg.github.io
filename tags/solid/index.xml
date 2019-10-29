@@ -24,8 +24,8 @@ O – (OCP) Open closed principle
 L – (LSP) Liskov substitution principle
 I – (ISP) Interface segregation principle
 D – (DIP) Dependency Inversion principle
-S.O.L.I.D prensipleri , geliştirilen yazılımların daha anlaşılır olmasını ve bakımının ve daha kolay olmasını hedefler.
-Peki nedir bu prensipler , tek tek inceleyelim.</description>
+S.O.L.I.D prensipleri, geliştirilen yazılımların daha anlaşılır olmasını ve bakımının daha kolay olmasını hedefler.
+Peki nedir bu prensipler, tek tek inceleyelim.</description>
     </item>
     
   </channel>

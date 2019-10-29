@@ -32,9 +32,9 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-
-<link href="/dist/even.641f904c.min.css" rel="stylesheet">
+<link href="/dist/even.cefe1421.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 <link rel="stylesheet" href="/css//static/css">
 
@@ -50,7 +50,7 @@
 
 
 <meta itemprop="dateModified" content="2019-10-19T18:55:21&#43;03:00" />
-<meta itemprop="wordCount" content="1184">
+<meta itemprop="wordCount" content="1180">
 
 
 
@@ -113,7 +113,7 @@
       <div class="post-meta">
         <span class="post-time"> 2019-10-19 </span>
         
-          <span class="more-meta"> 1184 kelimeler </span>
+          <span class="more-meta"> 1180 kelimeler </span>
           <span class="more-meta"> 6 dakika okuma </span>
         
       </div>
@@ -157,9 +157,9 @@
 
 <p><strong>D</strong> – (DIP) Dependency Inversion principle</p>
 
-<p>S.O.L.I.D prensipleri , geliştirilen yazılımların daha anlaşılır olmasını ve bakımının ve daha kolay olmasını hedefler.</p>
+<p>S.O.L.I.D prensipleri, geliştirilen yazılımların daha anlaşılır olmasını ve bakımının daha kolay olmasını hedefler.</p>
 
-<p>Peki nedir bu prensipler , tek tek inceleyelim.</p>
+<p>Peki nedir bu prensipler, tek tek inceleyelim.</p>
 
 <h1 id="single-responsibility-principle">Single Responsibility Principle</h1>
 
@@ -200,7 +200,7 @@
 </div>
 </div></p>
 
-<p>SendEmail metotu hem emaili doğruluyor hem de email gönderim işlemini yapıyor. Metotun birden fazla sorumluluğun olması Single Responsibility Principle ile çelişiyor.Bu yüzden bu metotu prensipe uygun olacak şekilde düzenleyelim ve SendEmail metotunu sadece mail göndermeden sorumlu hale getirelim.
+<p>SendEmail metotu hem emaili doğruluyor hem de email gönderim işlemini yapıyor. Metotun birden fazla sorumluluğun olması Single Responsibility Principle ile çelişiyor. Bu yüzden bu metotu prensipe uygun olacak şekilde düzenleyelim ve SendEmail metotunu sadece mail göndermeden sorumlu hale getirelim.
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-cs" data-lang="cs"><span class="lnt"> 1
@@ -244,7 +244,7 @@
 <h1 id="open-closed-principle">Open/Closed Principle</h1>
 
 <blockquote>
-<p>Classlar,metotlar değişikliğe kapalı ancak gelişime açık olmalıdır.</p>
+<p>Classlar, metotlar değişikliğe kapalı ancak geliştirmeye açık olmalıdır.</p>
 </blockquote>
 
 <p>Geometrik şekillerin alanlarını hesaplayan bir yapımız olsun.
@@ -316,7 +316,7 @@
 </div>
 </div></p>
 
-<p>Yeni bir şekil eklemek ve bunun da alanını hesaplamak istediğimizde  CombinedAreaCalculator metodumuzu değiştirmemiz gerekecek . Fakat classlarda metotlarda yapacağımız geliştirmeler  değişikliğe sebep olmamlı. Peki bunu en basit haliyle nasıl düzenleyebiliriz. Öncelikle Shape isimli bir abstract class tanımlayalım.
+<p>Yeni bir şekil eklemek ve bunun da alanını hesaplamak istediğimizde CombinedAreaCalculator metodumuzu değiştirmemiz gerekecek. Fakat classlarda metotlarda yapacağımız geliştirmeler  değişikliğe sebep olmamalı. Peki bunu en basit haliyle nasıl düzenleyebiliriz. Öncelikle Shape isimli bir abstract class tanımlayalım.
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-cs" data-lang="cs"><span class="lnt">1
@@ -376,7 +376,7 @@ Ardından Rectangle ve Circle classlarımızı bu Shape class&rsquo;ından türe
 </code></pre></td></tr></table>
 </div>
 </div>
-Son olarak CombinedAreaCalculator class&rsquo;ını güncelleyelim. Artık yeni bir şekil geldiğinde sadece yeni bir class oluşturacak CombinedAreaCalculator metotunu değiştirmemize gerek kalmadan geliştirmemizi tamamlayabiliriz.</p>
+Son olarak CombinedAreaCalculator class&rsquo;ını güncelleyelim. Artık yeni bir şekil geldiğinde sadece yeni bir class oluşturacak ve CombinedAreaCalculator metotunu değiştirmemize gerek kalmayacak.</p>
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -416,7 +416,7 @@ Son olarak CombinedAreaCalculator class&rsquo;ını güncelleyelim. Artık yeni 
 <p>Bir base class&rsquo;tan türetilen class&rsquo;lar üst class&rsquo;ların yerine de kullanabililir olmalıdır.</p>
 </blockquote>
 
-<p>Bird isimli classımız var ve içine Fly metotunu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) classlarını Bird class&rsquo;ından türettik. Ostrich bir üst clasının özelliği olayı fly metotunu sağlayamıyor ,fakat base classtan türetilen classlar üst classların yerine de kullanılabilmeli. Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
+<p>Bird isimli classımız var ve içine Fly metotunu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) classlarını Bird class&rsquo;ından türettik. Ostrich bir üst class&rsquo;ının özelliği olan fly metotunu sağlayamıyor fakat base classtan türetilen classlar üst classların yerine de kullanılabilmeli. Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-cs" data-lang="cs"><span class="lnt"> 1
@@ -496,7 +496,7 @@ FlyingBirds isimli yeni bir class oluşturalım ve Fly metotunu bu class&rsquo;a
 <h1 id="interface-segregation-principle">Interface Segregation Principle</h1>
 
 <blockquote>
-<p>Classlar ihtiyaç duymadıkları bir interface&rsquo;i kullanmaya zorlanmamalı veya ihtiyaç duyduğu interface&rsquo;e ait tek bir metod için interface&rsquo;in bütün metotlarını implemente etmek zorunda kalmamalıdır.</p>
+<p>Classlar ihtiyaç duymadıkları bir interface&rsquo;i kullanmaya zorlanmamalı ve ihtiyaç duyduğu interface&rsquo;e ait tek bir metod için interface&rsquo;in bütün metotlarını implemente etmek zorunda kalmamalıdır.</p>
 </blockquote>
 
 <p>ToyHouse isimli bir class&rsquo;ımız olsun ve bunu IToy interface&rsquo;inden türetelim.
@@ -535,7 +535,7 @@ FlyingBirds isimli yeni bir class oluşturalım ve Fly metotunu bu class&rsquo;a
 </code></pre></td></tr></table>
 </div>
 </div>
-ToyHouse class&rsquo;ı IToy interface&rsquo;inden türetildiği için Fly metotuna kullanmaya zorlanıyor. Fakat ToyHouse&rsquo;ın uçabilme gibi bir özelliği yok.</p>
+ToyHouse class&rsquo;ı IToy interface&rsquo;inden türetildiği için Fly metotuna kullanmaya zorlanıyor. Fakat ToyHouse&rsquo;ın Fly özelliği yok.</p>
 
 <p>Burada çözüm IToy interface&rsquo;inden Fly metotunu ayırmak, IFlyable isimli bir interface yaratmak olabilir.<br />
 <div class="highlight"><div class="chroma">
@@ -609,10 +609,10 @@ Ardından kodumuzu düzenleyelim.
 <h1 id="dependency-inversion-principle">Dependency Inversion Principle</h1>
 
 <blockquote>
-<p>Üst modüller alt seviyedeki modüllere doğruda bağımlı olmamalıdır.soyutlamalar ile bağlı olmalıdır.Alt modüllerde yapılan bir değişiklik üst modülü etkilememelidir..</p>
+<p>Üst modüller alt seviyedeki modüllere doğrudan bağımlı olmamalıdır, soyutlamalar ile bağlı olmalıdır. Alt modüllerde yapılan bir değişiklik üst modülü etkilememelidir.</p>
 </blockquote>
 
-<p>Post kaydı oluşturduğumuz bir yapımız olsun .</p>
+<p>Post kaydı oluşturduğumuz bir yapımız olsun.</p>
 
 <p><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -795,7 +795,10 @@ Fakat üst seviye modülümüz olan CreatePost metotu FileLogger metoduna bağl�
   
   
 </div>
-<footer class="post-footer">
+
+  
+
+    <footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/s.o.l.i.d/">S.O.L.I.D</a>
           <a href="/tags/solid/">solid</a>
@@ -804,11 +807,7 @@ Fakat üst seviye modülümüz olan CreatePost metotu FileLogger metoduna bağl�
           </div>
       <nav class="post-nav">
         
-        <a class="next" href="/post/net-core-swagger-kullanimi/">
-            <span class="next-text nav-default">NET Core Swagger Kullanımı</span>
-            <span class="next-text nav-mobile">Sonraki</span>
-            <i class="iconfont icon-right"></i>
-          </a>
+        
       </nav>
     </footer>
   </article>
@@ -828,21 +827,17 @@ Fakat üst seviye modülümüz olan CreatePost metotu FileLogger metoduna bağl�
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-  
-
-  
-
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:gktnkrdg@gmail.com" class="iconfont icon-email" title="email"></a>
-      <a href="https://twitter.com/gktnkrdg" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="https://linkedin.com/in/g%c3%b6kten" class="iconfont icon-linkedin" title="linkedin"></a>
-      <a href="https://github.com/gktnkrdg" class="iconfont icon-github" title="github"></a>
-      <a href="https://medium.com/@gktnkrdg" class="iconfont icon-medium" title="medium"></a>
-  <a href="https://goktenkaradag.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+      <a href="mailto:gktnkrdg@gmail.com" class="fab fa-email fa-3x" title="email"></a>
+      <a href="https://twitter.com/gktnkrdg" class="fab fa-twitter fa-3x" title="twitter"></a>
+      <a href="https://linkedin.com/in/g%c3%b6kten" class="fab fa-linkedin fa-3x" title="linkedin"></a>
+      <a href="https://github.com/gktnkrdg" class="fab fa-github fa-3x" title="github"></a>
+      <a href="https://medium.com/@gktnkrdg" class="fab fa-medium fa-3x" title="medium"></a>
+  <a href="https://goktenkaradag.com/index.xml" type="application/rss+xml" class="fas fa-rss fa-3x" title="rss"></a>
 </div>
 
 <div class="copyright">
