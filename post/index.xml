@@ -28,15 +28,5 @@ S.O.L.I.D prensipleri, geliştirilen yazılımların daha anlaşılır olmasın�
 Peki nedir bu prensipler, tek tek inceleyelim.</description>
     </item>
     
-    <item>
-      <title>NET Core Swagger Kullanımı</title>
-      <link>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</link>
-      <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
-      
-      <guid>https://goktenkaradag.com/post/net-core-swagger-kullanimi/</guid>
-      <description>Giriş Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
- OpenAPI 3.</description>
-    </item>
-    
   </channel>
 </rss>
