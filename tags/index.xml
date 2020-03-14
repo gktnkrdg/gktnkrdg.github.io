@@ -47,5 +47,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>.net</title>
+      <link>https://goktenkaradag.com/tags/.net/</link>
+      <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
+      
+      <guid>https://goktenkaradag.com/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.net core</title>
+      <link>https://goktenkaradag.com/tags/.net-core/</link>
+      <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
+      
+      <guid>https://goktenkaradag.com/tags/.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open api</title>
+      <link>https://goktenkaradag.com/tags/open-api/</link>
+      <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
+      
+      <guid>https://goktenkaradag.com/tags/open-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swagger</title>
+      <link>https://goktenkaradag.com/tags/swagger/</link>
+      <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
+      
+      <guid>https://goktenkaradag.com/tags/swagger/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
