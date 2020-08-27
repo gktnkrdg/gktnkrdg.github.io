@@ -1,61 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://goktenkaradag.com/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-coreda-cache-kullanlari-2-distributedcache/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/netcore/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-coreda-cache-kullanlari-1-inmemory/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-core-middleware-ile-hata-yakalama-ve-serilog-ile-loglama/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-core-identity/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/entity-framework-core-sorgu-etiketleri-query-tags/</loc>
-    <lastmod>2019-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/httpnin-yeni-hali-http-3/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/net-core-swagger/</loc>
-    <lastmod>2019-10-19T00:00:00+00:00</lastmod>
-  </url>
   
   <url>
     <loc>https://goktenkaradag.com/archives/</loc>
@@ -68,7 +13,23 @@
   </url>
   
   <url>
+    <loc>https://goktenkaradag.com/</loc>
+  </url>
+  
+  <url>
     <loc>https://goktenkaradag.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://goktenkaradag.com/tags/</loc>
   </url>
   
 </urlset>
