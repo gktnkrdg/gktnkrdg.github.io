@@ -3,33 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://goktenkaradag.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://goktenkaradag.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://goktenkaradag.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://goktenkaradag.com/tags/</loc>
   </url>
   
 </urlset>
